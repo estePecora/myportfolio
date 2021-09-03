@@ -1,0 +1,78 @@
+.cover-container {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    background-color:rgb(15, 18, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+.name-text-container > h1 {
+    color:silver;
+    font-size: 65px;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+.name-text-container > p {
+    color: #4C8BA6;
+    font-size: 30px;
+    font-family: 'Miriam Libre', sans-serif;
+
+}
+
+
+.photo-container {
+    display: flex;
+    justify-content: end;
+}
+
+.image-crop {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-style {
+    display: inline;
+    margin-left: -35%;
+    margin-top: -20%;
+    height: 120%;
+    width: auto;
+   
+}
+
+.arrow {
+    color:#4C8BA6;
+    text-align: center;
+    margin-top: 500px;
+    position:absolute;
+    z-index: 0;
+    transition: padding-top 400ms;
+    will-change: padding-top;
+   
+}
+
+.arrow > p:hover {
+    color: #aa42a1;
+
+}
+
+.arrow-down {
+    margin-top: 10px;
+    font-size: 20px;
+  
+}
+
+.arrow:hover {
+    padding-top: 50px;
+    
+}

@@ -1,0 +1,28 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    font-size: 20px;
+    z-index: 1;
+   
+
+}
+
+.navbar > h3 {
+    color: transparent;
+}
+
+.scrolling {
+    display: flex;
+    align-items: center;
+    background-color: #4C8BA6;
+    transition: all 0.5s ease;
+    color:silver;
+}
+
+.scrolling > h3 {
+    color:rgb(15, 18, 26);
+}
