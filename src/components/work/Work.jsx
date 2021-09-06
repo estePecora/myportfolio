@@ -37,7 +37,7 @@ const Work = () => {
                             <a href={project.gitlink} target='_blank' rel="noreferrer">
                                 <i className='fab fa-github github-project'></i>
                             </a>
-                            </span>
+                            </span> 
                         </div>
                     </div> 
                 )
