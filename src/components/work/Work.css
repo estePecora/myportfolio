@@ -1,5 +1,73 @@
 .work-container {
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
     background-color: rgb(15, 18, 26);
 }
+
+.main-project-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 10%;
+
+}
+
+.project-container {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    position: relative;
+
+}
+
+.project-images {
+    width: 100%;
+    height: 60%;
+    filter: grayscale(100%);
+	transition: .3s ease-in-out;
+}
+
+.project-images:hover {
+    filter: grayscale(0);
+}
+
+.project-titles {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: white;
+}
+
+.project-descriptions {
+    padding: 20px;
+}
+
+.project-git-link {
+    width: 100%;
+    background-color: #4C8BA6;
+    text-align: center;
+    color: rgb(15, 18, 26);
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.github-project {
+    color: rgb(15, 18, 26);
+    font-size: 30px;
+}
+
+.github-project:hover {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
