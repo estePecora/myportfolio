@@ -12,7 +12,7 @@ const projectInfo = [
     projectDescription: 'This project was made using Nodejs, Express, React-Redux'
 },
 {
-    weblink: 'https://hardwarestore.vercel.app/',
+    weblink: 'https://github.com/estePecora/Countries-App',
     gitlink: 'https://github.com/estePecora/Countries-App',
     projectImage: CountryAppImg,
     projectName: 'CountryApp',
