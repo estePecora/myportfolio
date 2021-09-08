@@ -13,6 +13,14 @@ const Form = () => {
         setinputState({...inputState, [e.target.name]: e.target.value})
     }
 
+    function resetState() {
+        setinputState({
+            name: "",
+            user_email: "",
+            message: ""
+          }) 
+    }
+
     function sendEmail(e) {
         e.preventDefault();
         if (inputState.name === "" || inputState.user_email === "" || inputState.message === "") {
@@ -25,6 +33,7 @@ const Form = () => {
               console.log(error.text);
           });
           e.target.reset();
+          resetState();
         }    
     }
 
