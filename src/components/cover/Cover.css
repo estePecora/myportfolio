@@ -124,14 +124,12 @@
         padding-top: 0px;
         
     }
-    
-}
-
-@media (max-height: 450px) {
 
     .arrow,
     .arrow:hover, 
     .arrow > p:hover {
         color: transparent;
     }
+    
 }
+
