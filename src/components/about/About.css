@@ -3,15 +3,17 @@
     flex-direction: column;
     background-color: silver;
     color: rgb(15, 18, 26);
-    height: 100vh;
+    height: 100%;
     padding: 100px 80px 100px 80px;
 
 }
 
 .about-description {
     display: flex;
-    flex-direction: column;
-    font-size: 50px;
+    font-size: 35px;
+    text-align: justify;
+    margin-top: 30px;
+    
 }
 
 .titles {
@@ -19,4 +21,24 @@
     padding-bottom: 30px;
     border-bottom-style: dotted;
     border-color: rgb(15, 18, 26);
+}
+
+@media screen and (max-width: 960px) {
+
+    .about-container {
+        padding: 120px 40px 120px 40px;
+        height: 100%;
+    }
+
+    .titles {
+        font-size: 60px;
+        text-align: center;  
+    }
+
+    .about-description {
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: justify;      
+    }
+
 }

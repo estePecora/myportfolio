@@ -18,15 +18,20 @@ const projectInfo = [
     projectName: 'CountryApp',
     projectDescription: 'This project was made using Nodejs, Express, React-Redux'
 },
+
 ]
 
 const Work = () => {
     
     return (
-        <div className='work-container'>
-            {projectInfo.map(project => {
-                return (
-                    <div className='main-project-container'>      
+        <div className='work-main-container'>
+
+            <div className='titles-work'>Work</div>
+        
+            <div className='work-container'>
+                {projectInfo.map(project => {
+                    return (
+                        <>      
                         <div className='project-container'>
                             <a href={project.weblink} target='_blank' rel="noreferrer">
                             <img src={project.projectImage} className='project-images'/>
@@ -39,9 +44,10 @@ const Work = () => {
                             </a>
                             </span> 
                         </div>
-                    </div> 
-                )
-            })} 
+                        </> 
+                    )
+                })} 
+            </div>
         </div>
     )
 }

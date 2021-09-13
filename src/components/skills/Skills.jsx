@@ -11,8 +11,6 @@ const Skills = () => {
                 <p>Javascript React Redux HTML Nodejs Express Sequelize MySQL Postgres Postman CSS Bootstrap Styled-Components GIT SCRUM</p>
             </div>
             
-
-            
         </div>
     )
 }
